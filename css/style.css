@@ -1,0 +1,30 @@
+/* outfit font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+/* default style start */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-color: #dadada;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* default style end */
+
+/* nav style start */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #131921;
+  color: #fff;
+}
+/* nav style end */

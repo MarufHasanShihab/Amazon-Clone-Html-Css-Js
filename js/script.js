@@ -1,3 +1,4 @@
+/* Header slider start */
 // finding element
 const images = document.querySelectorAll(".header_slider ul img");
 const prevBtn = document.querySelector(".contral_prev");
@@ -29,3 +30,17 @@ nextBtn.addEventListener("click", ()=>{
     }
     slideChange();
 })
+/* Header slider end */
+
+
+/* Product Slider Start */
+// const scrollContainer = document.querySelectorAll(".products");
+// for (let iteam of scrollContainer) {
+//     iteam.addEventListener("wheel", (event)=>{
+//         event.preventDefault();
+//         iteam.scrollLeft += event.deltaY; 
+//     });
+// }
+/* Product Slider end */
+
+

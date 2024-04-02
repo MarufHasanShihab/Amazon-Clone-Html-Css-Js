@@ -34,13 +34,18 @@ nextBtn.addEventListener("click", ()=>{
 
 
 /* Product Slider Start */
-// const scrollContainer = document.querySelectorAll(".products");
-// for (let iteam of scrollContainer) {
-//     iteam.addEventListener("wheel", (event)=>{
-//         event.preventDefault();
-//         iteam.scrollLeft += event.deltaY; 
-//     });
-// }
+const scrollContainer = document.querySelectorAll(".products");
+for (const product of scrollContainer) {
+  product.addEventListener("wheel", function (e) {
+    if (e.deltaY > 0) {
+      product.scrollLeft += 100;
+      e.preventDefault();
+    }
+    else {
+      product.scrollLeft -= 100;
+      e.preventDefault();
+    }
+  });
+}
+
 /* Product Slider end */
-
-

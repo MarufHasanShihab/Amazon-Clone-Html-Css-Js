@@ -207,12 +207,8 @@ nav {
 
 .product_slider .products img {
   max-width: 200px;
-  max-height: 200;
+  max-height: 200px;
 }
-
-/* .product_slider .products::-webkit-scrollbar {
-  display: none;
-} */
 /* product slider end */
 
 

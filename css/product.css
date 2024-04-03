@@ -196,5 +196,40 @@ body{
     width: 100%;
     margin-top: 10px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.product_d_purchase .product_by{
+    background-color: #ffa41c;
+}
+
+.product_seller_info{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4px;
+    color: #565656;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.product_seller_info span{
+    color: #007185;
+}
+
+.product_add_list{
+    margin: 20px 0;
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    text-align: start;
+    cursor: pointer;
 }
 /* product display section style end */
+
+
+/* footer */
+.product_footer{
+    margin-top: 100px;
+}
